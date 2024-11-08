@@ -18,7 +18,7 @@ ordered-float = "4.2.0"
 typenum = "1.17.0"
 paste = "1.0.14"
 rayon = { version = "1.10.0", optional = true }
-nalgebra = { version = "0.32.3", optional = true }
+nalgebra = { version = "^0.33", optional = true }
 serde = { version = "1.0.195", features = ["derive"], optional = true }
 
 [features]
